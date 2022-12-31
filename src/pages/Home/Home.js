@@ -1,7 +1,8 @@
 import React from 'react';
 import icon1 from "../../Assets/Home/icon1.jpg";
+import icon2 from "../../Assets/Home/icon2.jpg";
+import icon3 from "../../Assets/Home/icon3.jpg";
 import {BsArrowDown} from "react-icons/bs";
-import {LazyLoadImage} from 'react-lazy-load-image-component'
 
 
 const Home = () => {
@@ -83,12 +84,26 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='new__content-right'>
-                        <LazyLoadImage
-                            alt='woman'
-                            src={icon1}
-                            effect='blur'
-                            className='new__img'
-                        />
+                        <div className='photo'>
+                            <img
+                                alt='woman'
+                                src={icon1}
+                                effect='blur'
+                                className='new__img'
+                            />
+                            <img
+                                alt='woman2'
+                                src={icon2}
+                                effect='blur'
+                                className='new__img2'
+                            />
+                            <img
+                                alt='woman3'
+                                src={icon3}
+                                effect='blur'
+                                className='new__img3'
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

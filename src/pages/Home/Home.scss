@@ -12,15 +12,14 @@
         min-width: 563px;
       }
       &-right {
-        position: absolute;
-        right: 0;
-        top: 0;
-        background: #F1EADC;
-        width: 50%;
-        padding: 120px 0 50px 54px;
-        z-index: -2;
+        width: 45%;
+        background-color: #F1EADC;
+        display: flex;
+        align-items: center;
+        padding-left: 40px;
       }
     }
+    
     &__title {
       padding-top: 170px;
       font-weight: 500;
@@ -64,6 +63,34 @@
       letter-spacing: 0.02em;
       color: #FFFFFF;
     }
+    &__img {
+      position: relative;
+      width: min-content;
+    }
+}
+
+.new__img3 {
+  content: '';
+  width: 190px;
+  height: 318px;
+  display: block;
+  z-index: 100000;
+  position: absolute;
+  bottom: -377px;
+  right: 500px;   
+  background: url('../../Assets/Home/icon2.jpg');
+}
+
+.new__img2 {
+  content: '';
+  background-image: url("../../Assets/Home/icon3.jpg");
+  width: 197px;
+  height: 197px;
+  display: block;
+  z-index: 100000;
+  position: absolute;
+  top: 60%;
+  right: 0;
 }
 
 @keyframes tonext {
